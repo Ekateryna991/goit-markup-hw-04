@@ -173,6 +173,11 @@ a {
   color: var(--secondary-text-color);
 }
 
+ .email-icon { 
+  width: 16px;
+  height: 11px;
+}
+
 .phone::before {
   content: '';
   width: 10px;
@@ -369,19 +374,19 @@ a {
 }
 
 .icon-delivery::before {
-  background-image: url(../img/Vector1.svg);
+  background-image: url(../img/antenna.svg);
 }
 
 .icon-punctuality::before {
-  background-image: url(../img/Vector2.svg);
+  background-image: url(../img/clock.svg);
 }
 
 .icon-planning::before {
-  background-image: url(../img/Vector.svg);
+  background-image: url(../img/diagram.svg);
 }
 
 .icon-technology::before {
-  background-image: url(../img/Group.svg);
+  background-image: url(../img/astronaut.svg);
 }
 
 .advantage-info {
