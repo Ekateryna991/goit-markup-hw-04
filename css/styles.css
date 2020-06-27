@@ -160,6 +160,25 @@ a {
 
 .link-contact {
   color: var(--secondary-text-color);
+  display: inline-flex; /*исп для иконок*/
+  background-size: contain; /*исп для иконок*/
+}
+
+.email::before {
+  content: '';
+  width: 16px;
+  height: 11px;
+  background-image: url(../img/envelope.svg);
+  margin-right: 10px;
+  color: var(--secondary-text-color);
+}
+
+.phone::before {
+  content: '';
+  width: 10px;
+  height: 15px;
+  background-image: url(../img/smartphone.svg);
+  margin-right: 10px;
 }
 
 .contact .item + .item {
@@ -337,8 +356,74 @@ a {
   letter-spacing: 0.03em;
 }
 
+.advantage-img-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+  /* background-image: url(../img/Vector1.svg);   */
+  background-color: #f5f4fa;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.test {
+  background-color: aqua;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-size: 20px;
+  background-image: url(../img/linkedin-test.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.test1 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border: 1px solid tomato;
+  height: 44px;
+  width: 44px;
+  background-size: 20px;
+  background-image: url(../img/linkedin-test.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-delivery::before {
+  background-image: url(../img/Vector1.svg);
+}
+
+.icon-punctuality::before {
+  background-image: url(../img/Vector2.svg);
+}
+
+.icon-planning::before {
+  background-image: url(../img/Vector.svg);
+}
+
+.icon-technology::before {
+  background-image: url(../img/Group.svg);
+}
+
 .advantage-info {
   height: 251px;
+}
+
+.social-icon {
+  display: block;
+  background-color: var(--primary-bg-color);
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-size: 20px;
+  /* background-image: url(../img/insta.svg); */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-instagram {
+  background-image: url(../img/);
 }
 
 .list-item-aboutus {
@@ -503,6 +588,8 @@ a {
   border: 1px solid transparent;
   display: inline-block;
   padding: 10px 32px;
+
+  cursor: pointer;
 }
 
 .button-customers {
