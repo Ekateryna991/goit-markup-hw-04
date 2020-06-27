@@ -368,28 +368,6 @@ a {
   background-position: center;
 }
 
-.test {
-  background-color: aqua;
-  border-radius: 50%;
-  height: 44px;
-  width: 44px;
-  background-size: 20px;
-  background-image: url(../img/linkedin-test.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.test1 {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  border: 1px solid tomato;
-  height: 44px;
-  width: 44px;
-  background-size: 20px;
-  background-image: url(../img/linkedin-test.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .icon-delivery::before {
   background-image: url(../img/Vector1.svg);
 }
@@ -424,6 +402,50 @@ a {
 
 .icon-instagram {
   background-image: url(../img/insta.svg);
+  display: block;
+  background-color: var(--primary-bg-color);
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-twitt {
+  background-image: url(../img/twitt.svg);
+  display: block;
+  background-color: var(--primary-bg-color);
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-faceb {
+  background-image: url(../img/faceb.svg);
+  display: block;
+  background-color: var(--primary-bg-color);
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-linkedin {
+  background-image: url(../img/linkedin.svg);
+  display: block;
+  background-color: var(--primary-bg-color);
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .list-item-aboutus {
@@ -702,9 +724,6 @@ footer {
 
 .social-link-reverce {
   display: flex;
-}
-
-.social-link-reverce {
   margin-right: 10px;
   margin-bottom: 0;
 }
@@ -719,3 +738,7 @@ footer {
 .list-address:last-child {
   margin-top: 3px;
 }
+
+/* .reverse { 
+  background-color: violet;
+}*/
