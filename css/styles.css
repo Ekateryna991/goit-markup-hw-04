@@ -178,7 +178,6 @@ a {
   fill: var(--primary-accent-color);
 }
 
-
 .email-icon {
   display: block;
   margin-right: 10px;
@@ -186,7 +185,6 @@ a {
   height: 11px;
   fill: var(--secondary-text-color);
 }
-
 
 /* .phone::before { 
   content: '';
@@ -200,7 +198,7 @@ a {
   margin-right: 10px;
   width: 10px;
   height: 15px;
-  fill:var(--secondary-text-color);
+  fill: var(--secondary-text-color);
 }
 
 .contact .item + .item {
@@ -422,53 +420,20 @@ a {
   background-position: center;
 }
 
-.icon-instagram {
-  /* background-image: url(../img/insta.svg); 
+.test {
   display: block;
-  background-color: var(--primary-bg-color);
-  border-radius: 50%;
-  height: 44px;
   width: 44px;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;*/
-  width: 20px;
+  height: 44px;
+  background-position: center;
+  background-color: violet;
 }
 
-.icon-twitt {
-  background-image: url(../img/twitt.svg);
+.icon-social-link {
   display: block;
-  background-color: var(--primary-bg-color);
-  border-radius: 50%;
-  height: 44px;
   width: 44px;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-faceb {
-  background-image: url(../img/faceb.svg);
-  display: block;
-  background-color: var(--primary-bg-color);
-  border-radius: 50%;
   height: 44px;
-  width: 44px;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-linkedin {
-  background-image: url(../img/linkedin.svg);
-  display: block;
-  background-color: var(--primary-bg-color);
-  border-radius: 50%;
-  height: 44px;
-  width: 44px;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
+  padding: 12px;
+  /* background-color: violet; */
 }
 
 .list-item-aboutus {
