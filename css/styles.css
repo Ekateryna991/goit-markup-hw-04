@@ -613,9 +613,21 @@ a {
   cursor: pointer;
 }
 
+/* .button-customers { 
+  display: block;
+
+  border: 1px solid red;
+  border-radius: 4px;
+}*/
+
 .button-customers {
-  display: inline-block;
-  outline: red;
+  display: block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding-left: 65px;
+  padding-top: 20px;
 }
 
 .list-product .button-nav:hover,
