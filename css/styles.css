@@ -164,26 +164,40 @@ a {
   background-size: contain; /*исп для иконок*/
 }
 
-.email::before {
+/* .email::before { 
   content: '';
   width: 16px;
   height: 11px;
   background-image: url(../img/envelope.svg);
   margin-right: 10px;
   color: var(--secondary-text-color);
-}
+}*/
 
- .email-icon { 
+.email-icon {
+  display: block;
+  margin-right: 10px;
   width: 16px;
   height: 11px;
+  fill: var(--secondary-text-color);
 }
 
-.phone::before {
+.email-icon:hover,
+.phone-icon:hover {
+  fill: var(--primary-accent-color);
+}
+
+/* .phone::before { 
   content: '';
   width: 10px;
   height: 15px;
   background-image: url(../img/smartphone.svg);
   margin-right: 10px;
+}*/
+
+.smartphone-icon {
+  margin-right: 10px;
+  width: 10px;
+  height: 15px;
 }
 
 .contact .item + .item {
