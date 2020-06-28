@@ -628,6 +628,12 @@ a {
   border-radius: 4px;
   padding-left: 65px;
   padding-top: 20px;
+  fill: #afb1b8;
+}
+
+.button-customers:hover,
+.button-customers:focus {
+  fill: var(--primary-accent-color);
 }
 
 .list-product .button-nav:hover,
