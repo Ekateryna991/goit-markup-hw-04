@@ -173,6 +173,12 @@ a {
   color: var(--secondary-text-color);
 }*/
 
+.email-icon:hover,
+.smartphone-icon:hover {
+  fill: var(--primary-accent-color);
+}
+
+
 .email-icon {
   display: block;
   margin-right: 10px;
@@ -181,10 +187,6 @@ a {
   fill: var(--secondary-text-color);
 }
 
-.email-icon:hover,
-.phone-icon:hover {
-  fill: var(--primary-accent-color);
-}
 
 /* .phone::before { 
   content: '';
@@ -421,7 +423,7 @@ a {
 }
 
 .icon-instagram {
-  background-image: url(../img/insta.svg);
+  /* background-image: url(../img/insta.svg); 
   display: block;
   background-color: var(--primary-bg-color);
   border-radius: 50%;
@@ -429,7 +431,8 @@ a {
   width: 44px;
   background-size: 20px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;*/
+  width: 20px;
 }
 
 .icon-twitt {
