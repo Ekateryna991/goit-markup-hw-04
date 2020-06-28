@@ -634,6 +634,7 @@ a {
 .button-customers:hover,
 .button-customers:focus {
   fill: var(--primary-accent-color);
+  border: 1px solid var(--primary-accent-color);
 }
 
 .list-product .button-nav:hover,
