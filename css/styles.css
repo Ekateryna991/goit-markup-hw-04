@@ -170,11 +170,6 @@ a {
   background-size: contain; /*исп для иконок*/
 }
 
-.email-icon:hover,
-.smartphone-icon:hover {
-  fill: var(--primary-accent-color);
-}
-
 .email-icon {
   display: block;
   margin-right: 10px;
@@ -203,22 +198,19 @@ a {
   color: var(--primary-accent-color);
 }
 
-.contact .link-contact:hover,
-.contact .link-contact:focus {
-  color: var(--primary-accent-color);
-  fill: var(--primary-accent-color);
-}
-
 .site-nav .link-nav.current {
   color: var(--primary-accent-color);
 }
 
-.gggg {
-  display: inline-flex;
-  margin-bottom: 20px;
+.link-contact:hover,
+.link-contact:focus {
+  color: var(--primary-accent-color);
+  fill: var(--primary-accent-color);
 }
-.ggg:hover {
-  color: red;
+
+.email-icon:hover,
+.smartphone-icon:hover {
+  fill: var(--primary-accent-color);
 }
 
 .site-nav {
