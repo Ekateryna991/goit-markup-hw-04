@@ -170,15 +170,6 @@ a {
   background-size: contain; /*исп для иконок*/
 }
 
-/* .email::before { 
-  content: '';
-  width: 16px;
-  height: 11px;
-  background-image: url(../img/envelope.svg);
-  margin-right: 10px;
-  color: var(--secondary-text-color);
-}*/
-
 .email-icon:hover,
 .smartphone-icon:hover {
   fill: var(--primary-accent-color);
@@ -191,14 +182,6 @@ a {
   height: 11px;
   fill: var(--secondary-text-color);
 }
-
-/* .phone::before { 
-  content: '';
-  width: 10px;
-  height: 15px;
-  background-image: url(../img/smartphone.svg);
-  margin-right: 10px;
-}*/
 
 .smartphone-icon {
   margin-right: 10px;
@@ -216,14 +199,26 @@ a {
 }
 
 .site-nav .link-nav:hover,
-.site-nav .link-nav:focus,
+.site-nav .link-nav:focus {
+  color: var(--primary-accent-color);
+}
+
 .contact .link-contact:hover,
 .contact .link-contact:focus {
   color: var(--primary-accent-color);
+  fill: var(--primary-accent-color);
 }
 
 .site-nav .link-nav.current {
   color: var(--primary-accent-color);
+}
+
+.gggg {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+.ggg:hover {
+  color: red;
 }
 
 .site-nav {
@@ -430,10 +425,6 @@ a {
 .icon-social-link:hover,
 .icon-social-link:focus {
   background-color: var(--primary-accent-color);
-}
-
-.icon-social-item:hover,
-.icon-social-item:focus {
   fill: var(--primary-bg-color);
 }
 
@@ -565,6 +556,10 @@ a {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.works:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .works a {
