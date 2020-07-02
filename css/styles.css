@@ -175,14 +175,16 @@ a {
   margin-right: 10px;
   width: 16px;
   height: 11px;
-  fill: var(--secondary-text-color);
+  /* fill: var(--secondary-text-color); */
+  color: currentColor;
 }
 
 .smartphone-icon {
   margin-right: 10px;
   width: 10px;
   height: 15px;
-  fill: var(--secondary-text-color);
+  /* fill: var(--secondary-text-color); */
+  color: currentColor;
 }
 
 .contact .item + .item {
